@@ -1,0 +1,227 @@
+﻿生成启动时间为 2021/11/10 18:57:33。
+     1>项目“F:\WorkSpace\DL\mnist-cudnn-vs2015\mnist-cudnn-vnd\mnist-cudnn-vnd\mnist-cudnn-vnd.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /DWIN64 /D_DEBUG /D_CONSOLE /D_D_SCL_SECURE_NO_WARNINGS /D_SCL_SECURE_NO_WARNINGS /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include" /I. /FIcuda_runtime.h /c F:\WorkSpace\DL\mnist-cudnn-vs2015\mnist-cudnn-vnd\mnist-cudnn-vnd\convolution.cu 
+       AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /DWIN64 /D_DEBUG /D_CONSOLE /D_D_SCL_SECURE_NO_WARNINGS /D_SCL_SECURE_NO_WARNINGS /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include" /I. /FIcuda_runtime.h /c F:\WorkSpace\DL\mnist-cudnn-vs2015\mnist-cudnn-vnd\mnist-cudnn-vnd\src\layer.cu 
+       AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /DWIN64 /D_DEBUG /D_CONSOLE /D_D_SCL_SECURE_NO_WARNINGS /D_SCL_SECURE_NO_WARNINGS /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include" /I. /FIcuda_runtime.h /c F:\WorkSpace\DL\mnist-cudnn-vs2015\mnist-cudnn-vnd\mnist-cudnn-vnd\src\loss.cu 
+     1>项目“F:\WorkSpace\DL\mnist-cudnn-vs2015\mnist-cudnn-vnd\mnist-cudnn-vnd\mnist-cudnn-vnd.vcxproj”(1)正在节点 2 上生成“F:\WorkSpace\DL\mnist-cudnn-vs2015\mnist-cudnn-vnd\mnist-cudnn-vnd\mnist-cudnn-vnd.vcxproj”(1:5) (CudaBuildCore 个目标)。
+     1>CudaBuildCore:
+         Compiling CUDA source file src\loss.cu...
+     1>项目“F:\WorkSpace\DL\mnist-cudnn-vs2015\mnist-cudnn-vnd\mnist-cudnn-vnd\mnist-cudnn-vnd.vcxproj”(1)正在节点 3 上生成“F:\WorkSpace\DL\mnist-cudnn-vs2015\mnist-cudnn-vnd\mnist-cudnn-vnd\mnist-cudnn-vnd.vcxproj”(1:6) (CudaBuildCore 个目标)。
+     1>CudaBuildCore:
+         Compiling CUDA source file src\layer.cu...
+     1>项目“F:\WorkSpace\DL\mnist-cudnn-vs2015\mnist-cudnn-vnd\mnist-cudnn-vnd\mnist-cudnn-vnd.vcxproj”(1)正在节点 1 上生成“F:\WorkSpace\DL\mnist-cudnn-vs2015\mnist-cudnn-vnd\mnist-cudnn-vnd\mnist-cudnn-vnd.vcxproj”(1:7) (CudaBuildCore 个目标)。
+     1>CudaBuildCore:
+         Compiling CUDA source file convolution.cu...
+     1>CudaBuildCore:
+         cmd.exe /C "C:\Users\asus\AppData\Local\Temp\tmp4dc63994468f41629f890e9df3b1a02e.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu -rdc=true -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_D_SCL_SECURE_NO_WARNINGS -D_SCL_SECURE_NO_WARNINGS -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc140.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\loss.cu.obj "F:\WorkSpace\DL\mnist-cudnn-vs2015\mnist-cudnn-vnd\mnist-cudnn-vnd\src\loss.cu"
+     1>CudaBuildCore:
+         cmd.exe /C "C:\Users\asus\AppData\Local\Temp\tmpcca9e0e2a19a4686a455837913afe585.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu -rdc=true -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_D_SCL_SECURE_NO_WARNINGS -D_SCL_SECURE_NO_WARNINGS -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc140.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\layer.cu.obj "F:\WorkSpace\DL\mnist-cudnn-vs2015\mnist-cudnn-vnd\mnist-cudnn-vnd\src\layer.cu"
+     1>CudaBuildCore:
+         cmd.exe /C "C:\Users\asus\AppData\Local\Temp\tmpd5d7df09d2124709b4a5cd4a096a9ce6.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu -rdc=true -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_D_SCL_SECURE_NO_WARNINGS -D_SCL_SECURE_NO_WARNINGS -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc140.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\convolution.cu.obj "F:\WorkSpace\DL\mnist-cudnn-vs2015\mnist-cudnn-vnd\mnist-cudnn-vnd\convolution.cu"
+     1>CudaBuildCore:
+         
+         F:\WorkSpace\DL\mnist-cudnn-vs2015\mnist-cudnn-vnd\mnist-cudnn-vnd>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu -rdc=true -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_D_SCL_SECURE_NO_WARNINGS -D_SCL_SECURE_NO_WARNINGS -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc140.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\loss.cu.obj "F:\WorkSpace\DL\mnist-cudnn-vs2015\mnist-cudnn-vnd\mnist-cudnn-vnd\src\loss.cu" 
+     1>CudaBuildCore:
+         
+         F:\WorkSpace\DL\mnist-cudnn-vs2015\mnist-cudnn-vnd\mnist-cudnn-vnd>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu -rdc=true -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_D_SCL_SECURE_NO_WARNINGS -D_SCL_SECURE_NO_WARNINGS -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc140.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\layer.cu.obj "F:\WorkSpace\DL\mnist-cudnn-vs2015\mnist-cudnn-vnd\mnist-cudnn-vnd\src\layer.cu" 
+     1>CudaBuildCore:
+         
+         F:\WorkSpace\DL\mnist-cudnn-vs2015\mnist-cudnn-vnd\mnist-cudnn-vnd>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu -rdc=true -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_D_SCL_SECURE_NO_WARNINGS -D_SCL_SECURE_NO_WARNINGS -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc140.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\convolution.cu.obj "F:\WorkSpace\DL\mnist-cudnn-vs2015\mnist-cudnn-vnd\mnist-cudnn-vnd\convolution.cu" 
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\sm_20_intrinsics.h(926): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_fp16.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\sm_20_intrinsics.h(926): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_fp16.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\sm_20_intrinsics.h(926): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_fp16.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\xlocale(2505): warning : expression must be a pointer to a complete object type
+         
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\xlocale(2505): warning : expression must be a pointer to a complete object type
+         
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\xlocale(2505): warning : expression must be a pointer to a complete object type
+         
+     1>F:/WorkSpace/DL/mnist-cudnn-vs2015/mnist-cudnn-vnd/mnist-cudnn-vnd/convolution.cu(82): error : identifier "CUDNN_CONVOLUTION_FWD_PREFER_FASTEST" is undefined
+         
+     1>F:/WorkSpace/DL/mnist-cudnn-vs2015/mnist-cudnn-vnd/mnist-cudnn-vnd/convolution.cu(82): error : identifier "cudnnGetConvolutionForwardAlgorithm" is undefined
+         
+     1>F:/WorkSpace/DL/mnist-cudnn-vs2015/mnist-cudnn-vnd/mnist-cudnn-vnd/convolution.cu(87): error : identifier "CUDNN_CONVOLUTION_BWD_FILTER_PREFER_FASTEST" is undefined
+         
+     1>F:/WorkSpace/DL/mnist-cudnn-vs2015/mnist-cudnn-vnd/mnist-cudnn-vnd/convolution.cu(87): error : identifier "cudnnGetConvolutionBackwardFilterAlgorithm" is undefined
+         
+     1>F:/WorkSpace/DL/mnist-cudnn-vs2015/mnist-cudnn-vnd/mnist-cudnn-vnd/convolution.cu(92): error : identifier "CUDNN_CONVOLUTION_BWD_DATA_PREFER_FASTEST" is undefined
+         
+     1>F:/WorkSpace/DL/mnist-cudnn-vs2015/mnist-cudnn-vnd/mnist-cudnn-vnd/convolution.cu(92): error : identifier "cudnnGetConvolutionBackwardDataAlgorithm" is undefined
+         
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\xatomic0.h(55): warning : extern inline function "std::_Atomic_load_4" was referenced but not defined
+         
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\xatomic0.h(56): warning : extern inline function "std::_Atomic_compare_exchange_weak_4" was referenced but not defined
+         
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\xatomic0.h(58): warning : extern inline function "std::_Atomic_fetch_add_4" was referenced but not defined
+         
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\xatomic0.h(60): warning : extern inline function "std::_Atomic_fetch_sub_4" was referenced but not defined
+         
+         6 errors detected in the compilation of "C:/Users/asus/AppData/Local/Temp/tmpxft_00002510_00000000-7_convolution.cpp1.ii".
+         convolution.cu
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\BuildCustomizations\CUDA 10.2.targets(764,9): error MSB3721: 命令“"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu -rdc=true -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_D_SCL_SECURE_NO_WARNINGS -D_SCL_SECURE_NO_WARNINGS -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc140.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\convolution.cu.obj "F:\WorkSpace\DL\mnist-cudnn-vs2015\mnist-cudnn-vnd\mnist-cudnn-vnd\convolution.cu"”已退出，返回代码为 1。
+     1>已完成生成项目“F:\WorkSpace\DL\mnist-cudnn-vs2015\mnist-cudnn-vnd\mnist-cudnn-vnd\mnist-cudnn-vnd.vcxproj”(CudaBuildCore 个目标)的操作 - 失败。
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\xatomic0.h(55): warning : extern inline function "std::_Atomic_load_4" was referenced but not defined
+         
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\xatomic0.h(56): warning : extern inline function "std::_Atomic_compare_exchange_weak_4" was referenced but not defined
+         
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\xatomic0.h(58): warning : extern inline function "std::_Atomic_fetch_add_4" was referenced but not defined
+         
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\xatomic0.h(60): warning : extern inline function "std::_Atomic_fetch_sub_4" was referenced but not defined
+         
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\xatomic0.h(55): warning : extern inline function "std::_Atomic_load_4" was referenced but not defined
+         
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\xatomic0.h(56): warning : extern inline function "std::_Atomic_compare_exchange_weak_4" was referenced but not defined
+         
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\xatomic0.h(58): warning : extern inline function "std::_Atomic_fetch_add_4" was referenced but not defined
+         
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\xatomic0.h(60): warning : extern inline function "std::_Atomic_fetch_sub_4" was referenced but not defined
+         
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\sm_20_intrinsics.h(926): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_fp16.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\sm_20_intrinsics.h(926): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_fp16.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\xlocale(2505): warning : expression must be a pointer to a complete object type
+         
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\xlocale(2505): warning : expression must be a pointer to a complete object type
+         
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\xatomic0.h(55): warning : extern inline function "std::_Atomic_load_4" was referenced but not defined
+         
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\xatomic0.h(56): warning : extern inline function "std::_Atomic_compare_exchange_weak_4" was referenced but not defined
+         
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\xatomic0.h(58): warning : extern inline function "std::_Atomic_fetch_add_4" was referenced but not defined
+         
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\xatomic0.h(60): warning : extern inline function "std::_Atomic_fetch_sub_4" was referenced but not defined
+         
+         loss.cu
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\xatomic0.h(55): warning : extern inline function "std::_Atomic_load_4" was referenced but not defined
+         
+     1>C:/Users/asus/AppData/Local/Temp/tmpxft_00003c6c_00000000-6_loss.cudafe1.cpp : fatal error C1902: 程序数据库管理器不匹配；请检查安装
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\BuildCustomizations\CUDA 10.2.targets(764,9): error MSB3721: 命令“"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu -rdc=true -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_D_SCL_SECURE_NO_WARNINGS -D_SCL_SECURE_NO_WARNINGS -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc140.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\loss.cu.obj "F:\WorkSpace\DL\mnist-cudnn-vs2015\mnist-cudnn-vnd\mnist-cudnn-vnd\src\loss.cu"”已退出，返回代码为 2。
+     1>已完成生成项目“F:\WorkSpace\DL\mnist-cudnn-vs2015\mnist-cudnn-vnd\mnist-cudnn-vnd\mnist-cudnn-vnd.vcxproj”(CudaBuildCore 个目标)的操作 - 失败。
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\xatomic0.h(56): warning : extern inline function "std::_Atomic_compare_exchange_weak_4" was referenced but not defined
+         
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\xatomic0.h(58): warning : extern inline function "std::_Atomic_fetch_add_4" was referenced but not defined
+         
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\xatomic0.h(60): warning : extern inline function "std::_Atomic_fetch_sub_4" was referenced but not defined
+         
+         layer.cu
+     1>C:/Users/asus/AppData/Local/Temp/tmpxft_0000051c_00000000-6_layer.cudafe1.cpp : fatal error C1902: 程序数据库管理器不匹配；请检查安装
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\BuildCustomizations\CUDA 10.2.targets(764,9): error MSB3721: 命令“"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu -rdc=true -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_D_SCL_SECURE_NO_WARNINGS -D_SCL_SECURE_NO_WARNINGS -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc140.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\layer.cu.obj "F:\WorkSpace\DL\mnist-cudnn-vs2015\mnist-cudnn-vnd\mnist-cudnn-vnd\src\layer.cu"”已退出，返回代码为 2。
+     1>已完成生成项目“F:\WorkSpace\DL\mnist-cudnn-vs2015\mnist-cudnn-vnd\mnist-cudnn-vnd\mnist-cudnn-vnd.vcxproj”(CudaBuildCore 个目标)的操作 - 失败。
+     1>已完成生成项目“F:\WorkSpace\DL\mnist-cudnn-vs2015\mnist-cudnn-vnd\mnist-cudnn-vnd\mnist-cudnn-vnd.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.98
